@@ -1,10 +1,4 @@
-﻿using Geography_testClassLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Geography_testClassLibrary
 {
     public static class DiagnoseCalculator

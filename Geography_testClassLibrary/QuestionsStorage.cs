@@ -34,7 +34,7 @@ namespace Geography_testClassLibrary
                 questions.Add(new Question("How many oceans are there on Earth?", 5));
                 questions.Add(new Question("How many continents are on Earth?", 6));
                 questions.Add(new Question("How many billion people make up the world's population?", 8));
-                questions.Add(new Question("The height of the tallest mountain on Earth? (in km not rounded)", 8848));
+                questions.Add(new Question("The height of the tallest mountain on Earth? (in km not rounded)", 8));
                 questions.Add(new Question("How many kilometers is the depth of the Mariana Trench? (rounded)", 11));
 
                 Serialize(questions);

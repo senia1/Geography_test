@@ -1,7 +1,4 @@
-﻿
-using Geography_testClassLibrary;
-using System;
-using System.Collections.Generic;
+﻿using Geography_testClassLibrary;
 using System.Timers;
 
 class Program
@@ -24,9 +21,10 @@ class Program
 
             var countRightAnswers = PlayGame(questions);
             //var diagnos = GetDiagnos(countRightAnswers, questionsCount);
+            user.RightAnswersCount = countRightAnswers;
+            
             var diagnos = DiagnoseCalculator.Calculate(questionsCount, user);
 
-            user.RightAnswersCount = countRightAnswers;
             user.Diagnos = diagnos;
 
             Console.WriteLine($"Number of correct answers: {countRightAnswers}. {user.Name}, Your diagnosis: {diagnos}");
