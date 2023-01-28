@@ -20,11 +20,9 @@ class Program
             var questionsCount = questions.Count;
 
             var countRightAnswers = PlayGame(questions);
-            //var diagnos = GetDiagnos(countRightAnswers, questionsCount);
             user.RightAnswersCount = countRightAnswers;
             
             var diagnos = DiagnoseCalculator.Calculate(questionsCount, user);
-
             user.Diagnos = diagnos;
 
             Console.WriteLine($"Number of correct answers: {countRightAnswers}. {user.Name}, Your diagnosis: {diagnos}");
