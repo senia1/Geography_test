@@ -122,7 +122,6 @@
             this.Name = "AddQuestionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add question";
-            this.Load += new System.EventHandler(this.AddQuestionsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
