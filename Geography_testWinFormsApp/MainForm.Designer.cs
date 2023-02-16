@@ -43,11 +43,11 @@
             this.restartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.timer = new System.Windows.Forms.Timer(this.components);
             this.questionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.questionsListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -149,19 +149,19 @@
             // restartToolStripMenuItem
             // 
             this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
-            this.restartToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
             this.restartToolStripMenuItem.Text = "Results";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
             this.exitToolStripMenuItem.Text = "Restart";
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(169, 34);
             this.exitToolStripMenuItem1.Text = "Exit";
             // 
             // questionsToolStripMenuItem
@@ -177,19 +177,19 @@
             // questionsListToolStripMenuItem
             // 
             this.questionsListToolStripMenuItem.Name = "questionsListToolStripMenuItem";
-            this.questionsListToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.questionsListToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
             this.questionsListToolStripMenuItem.Text = "List of questions";
             // 
             // addAQuestionToolStripMenuItem
             // 
             this.addAQuestionToolStripMenuItem.Name = "addAQuestionToolStripMenuItem";
-            this.addAQuestionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.addAQuestionToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
             this.addAQuestionToolStripMenuItem.Text = "Add a question";
             // 
             // deleteAQuestionToolStripMenuItem
             // 
             this.deleteAQuestionToolStripMenuItem.Name = "deleteAQuestionToolStripMenuItem";
-            this.deleteAQuestionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.deleteAQuestionToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
             this.deleteAQuestionToolStripMenuItem.Text = "Delete a question";
             // 
             // MainForm
