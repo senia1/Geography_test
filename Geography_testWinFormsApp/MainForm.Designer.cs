@@ -39,11 +39,15 @@
             this.updateButton = new System.Windows.Forms.Button();
             this.startTestButton = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.timer = new System.Windows.Forms.Timer(this.components);
             this.resultsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.questionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.questionsListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,7 +128,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.resultsToolStripMenuItem});
+            this.resultsToolStripMenuItem,
+            this.questionsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 33);
@@ -158,6 +163,34 @@
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
             this.exitToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
             this.exitToolStripMenuItem1.Text = "Exit";
+            // 
+            // questionsToolStripMenuItem
+            // 
+            this.questionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.questionsListToolStripMenuItem,
+            this.addAQuestionToolStripMenuItem,
+            this.deleteAQuestionToolStripMenuItem});
+            this.questionsToolStripMenuItem.Name = "questionsToolStripMenuItem";
+            this.questionsToolStripMenuItem.Size = new System.Drawing.Size(108, 29);
+            this.questionsToolStripMenuItem.Text = "Questions";
+            // 
+            // questionsListToolStripMenuItem
+            // 
+            this.questionsListToolStripMenuItem.Name = "questionsListToolStripMenuItem";
+            this.questionsListToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.questionsListToolStripMenuItem.Text = "List of questions";
+            // 
+            // addAQuestionToolStripMenuItem
+            // 
+            this.addAQuestionToolStripMenuItem.Name = "addAQuestionToolStripMenuItem";
+            this.addAQuestionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.addAQuestionToolStripMenuItem.Text = "Add a question";
+            // 
+            // deleteAQuestionToolStripMenuItem
+            // 
+            this.deleteAQuestionToolStripMenuItem.Name = "deleteAQuestionToolStripMenuItem";
+            this.deleteAQuestionToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.deleteAQuestionToolStripMenuItem.Text = "Delete a question";
             // 
             // MainForm
             // 
@@ -200,5 +233,9 @@
         private ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Timer timer;
         private ToolStripMenuItem exitToolStripMenuItem1;
+        private ToolStripMenuItem questionsToolStripMenuItem;
+        private ToolStripMenuItem questionsListToolStripMenuItem;
+        private ToolStripMenuItem addAQuestionToolStripMenuItem;
+        private ToolStripMenuItem deleteAQuestionToolStripMenuItem;
     }
 }

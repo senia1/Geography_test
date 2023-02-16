@@ -73,6 +73,16 @@ namespace Geography_testWinFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap compass_gd665b9ee7_1280 {
+            get {
+                object obj = ResourceManager.GetObject("compass-gd665b9ee7_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap start_48_44541 {
             get {
                 object obj = ResourceManager.GetObject("start-48_44541", resourceCulture);
