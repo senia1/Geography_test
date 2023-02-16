@@ -16,5 +16,17 @@ namespace Geography_testWinFormsApp
         {
             InitializeComponent();
         }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(userNameTextBox.Text))
+            {
+                MessageBox.Show("What is your name?");
+            }
+            else
+            {
+                Close();
+            }
+        }
     }
 }
