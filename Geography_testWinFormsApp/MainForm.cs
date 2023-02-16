@@ -6,5 +6,6 @@ namespace Geography_testWinFormsApp
         {
             InitializeComponent();
         }
+
     }
 }
