@@ -93,6 +93,7 @@
             // 
             // WelcomeForm
             // 
+            this.AcceptButton = this.startButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Geography_testWinFormsApp.Properties.Resources.compass_gd665b9ee7_1280;

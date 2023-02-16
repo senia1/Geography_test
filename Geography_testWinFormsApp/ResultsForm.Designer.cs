@@ -39,6 +39,7 @@
             // 
             // resultsCloseButton
             // 
+            this.resultsCloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.resultsCloseButton.BackColor = System.Drawing.Color.LavenderBlush;
             this.resultsCloseButton.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.resultsCloseButton.ForeColor = System.Drawing.Color.DimGray;

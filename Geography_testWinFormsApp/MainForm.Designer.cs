@@ -48,6 +48,7 @@
             this.addAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +60,7 @@
             this.nextButton.TabIndex = 0;
             this.nextButton.Text = "Next";
             this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // questionNumberLabel
             // 
@@ -86,13 +88,15 @@
             this.resultsButton.TabIndex = 3;
             this.resultsButton.Text = "Results";
             this.resultsButton.UseVisualStyleBackColor = true;
+            this.resultsButton.Visible = false;
+            this.resultsButton.Click += new System.EventHandler(this.resultsButton_Click);
             // 
             // userAnswerTextBox
             // 
             this.userAnswerTextBox.Location = new System.Drawing.Point(142, 258);
             this.userAnswerTextBox.Name = "userAnswerTextBox";
             this.userAnswerTextBox.Size = new System.Drawing.Size(150, 31);
-            this.userAnswerTextBox.TabIndex = 4;
+            this.userAnswerTextBox.TabIndex = 0;
             // 
             // timerLabel
             // 
@@ -113,6 +117,7 @@
             this.updateButton.TabIndex = 6;
             this.updateButton.Text = "-";
             this.updateButton.UseVisualStyleBackColor = true;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
             // startTestButton
             // 
@@ -123,6 +128,8 @@
             this.startTestButton.Size = new System.Drawing.Size(39, 35);
             this.startTestButton.TabIndex = 7;
             this.startTestButton.UseVisualStyleBackColor = true;
+            this.startTestButton.Click += new System.EventHandler(this.startTestButton_Click);
+            this.startTestButton.MouseMove += new System.Windows.Forms.MouseEventHandler(this.startTestButton_MouseMove);
             // 
             // menuStrip1
             // 
@@ -151,18 +158,21 @@
             this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
             this.restartToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
             this.restartToolStripMenuItem.Text = "Results";
+            this.restartToolStripMenuItem.Click += new System.EventHandler(this.restartToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
             this.exitToolStripMenuItem.Text = "Restart";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
             this.exitToolStripMenuItem1.Size = new System.Drawing.Size(169, 34);
             this.exitToolStripMenuItem1.Text = "Exit";
+            this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
             // questionsToolStripMenuItem
             // 
@@ -179,21 +189,29 @@
             this.questionsListToolStripMenuItem.Name = "questionsListToolStripMenuItem";
             this.questionsListToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
             this.questionsListToolStripMenuItem.Text = "List of questions";
+            this.questionsListToolStripMenuItem.Click += new System.EventHandler(this.questionsListToolStripMenuItem_Click);
             // 
             // addAQuestionToolStripMenuItem
             // 
             this.addAQuestionToolStripMenuItem.Name = "addAQuestionToolStripMenuItem";
             this.addAQuestionToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
             this.addAQuestionToolStripMenuItem.Text = "Add a question";
+            this.addAQuestionToolStripMenuItem.Click += new System.EventHandler(this.addAQuestionToolStripMenuItem_Click);
             // 
             // deleteAQuestionToolStripMenuItem
             // 
             this.deleteAQuestionToolStripMenuItem.Name = "deleteAQuestionToolStripMenuItem";
             this.deleteAQuestionToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
             this.deleteAQuestionToolStripMenuItem.Text = "Delete a question";
+            this.deleteAQuestionToolStripMenuItem.Click += new System.EventHandler(this.deleteAQuestionToolStripMenuItem_Click);
+            // 
+            // timer
+            // 
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // MainForm
             // 
+            this.AcceptButton = this.nextButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -211,6 +229,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Geography_test";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -238,5 +257,6 @@
         private ToolStripMenuItem questionsListToolStripMenuItem;
         private ToolStripMenuItem addAQuestionToolStripMenuItem;
         private ToolStripMenuItem deleteAQuestionToolStripMenuItem;
+        private ToolTip toolTip1;
     }
 }
