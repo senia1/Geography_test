@@ -121,10 +121,19 @@
   <data name="Clear_37294" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Clear_37294.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="start-48_44541" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\start-48_44541.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="globe_geography_global_international_education_icon_141976" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_geography_global_international_education_icon_141976.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_geography_global_international_education_icon_1419761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_geography_global_international_education_icon_1419761.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="compass-gd665b9ee7_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\compass-gd665b9ee7_1280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start-48_44541" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start-48_44541.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_geography_world_earth_icon_220473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_geography_world_earth_icon_220473.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -31,20 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllQuestionsForm));
             this.deleteQuestionCloseButton = new System.Windows.Forms.Button();
             this.allQuestionsDataGridView = new System.Windows.Forms.DataGridView();
-            this.questionNumberColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.questionsColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.answersColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NumberColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.questions = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AnswersColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.allQuestionsDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // deleteQuestionCloseButton
             // 
-            this.deleteQuestionCloseButton.BackColor = System.Drawing.Color.LavenderBlush;
+            this.deleteQuestionCloseButton.BackColor = System.Drawing.Color.Pink;
             this.deleteQuestionCloseButton.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.deleteQuestionCloseButton.ForeColor = System.Drawing.Color.DimGray;
-            this.deleteQuestionCloseButton.Location = new System.Drawing.Point(630, 380);
+            this.deleteQuestionCloseButton.Location = new System.Drawing.Point(607, 374);
             this.deleteQuestionCloseButton.Name = "deleteQuestionCloseButton";
-            this.deleteQuestionCloseButton.Size = new System.Drawing.Size(132, 46);
+            this.deleteQuestionCloseButton.Size = new System.Drawing.Size(155, 52);
             this.deleteQuestionCloseButton.TabIndex = 0;
             this.deleteQuestionCloseButton.Text = "Close";
             this.deleteQuestionCloseButton.UseVisualStyleBackColor = false;
@@ -58,46 +58,47 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.allQuestionsDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.allQuestionsDataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.allQuestionsDataGridView.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
+            this.allQuestionsDataGridView.BackgroundColor = System.Drawing.Color.LavenderBlush;
             this.allQuestionsDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.allQuestionsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.allQuestionsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.questionNumberColumn,
-            this.questionsColumn,
-            this.answersColumn});
-            this.allQuestionsDataGridView.Location = new System.Drawing.Point(62, 40);
+            this.NumberColumn,
+            this.questions,
+            this.AnswersColumn});
+            this.allQuestionsDataGridView.Location = new System.Drawing.Point(76, 46);
             this.allQuestionsDataGridView.Name = "allQuestionsDataGridView";
             this.allQuestionsDataGridView.RowHeadersWidth = 62;
             this.allQuestionsDataGridView.RowTemplate.Height = 33;
-            this.allQuestionsDataGridView.Size = new System.Drawing.Size(673, 225);
-            this.allQuestionsDataGridView.TabIndex = 1;
+            this.allQuestionsDataGridView.Size = new System.Drawing.Size(650, 225);
+            this.allQuestionsDataGridView.TabIndex = 3;
             // 
-            // questionNumberColumn
+            // NumberColumn
             // 
-            this.questionNumberColumn.HeaderText = "#";
-            this.questionNumberColumn.MinimumWidth = 8;
-            this.questionNumberColumn.Name = "questionNumberColumn";
-            this.questionNumberColumn.Width = 59;
+            this.NumberColumn.HeaderText = "№";
+            this.NumberColumn.MinimumWidth = 8;
+            this.NumberColumn.Name = "NumberColumn";
+            this.NumberColumn.Width = 68;
             // 
-            // questionsColumn
+            // questions
             // 
-            this.questionsColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.questionsColumn.HeaderText = "Questions";
-            this.questionsColumn.MinimumWidth = 8;
-            this.questionsColumn.Name = "questionsColumn";
+            this.questions.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.questions.HeaderText = "Questions";
+            this.questions.MinimumWidth = 8;
+            this.questions.Name = "questions";
+            this.questions.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
-            // answersColumn
+            // AnswersColumn
             // 
-            this.answersColumn.HeaderText = "Answers";
-            this.answersColumn.MinimumWidth = 8;
-            this.answersColumn.Name = "answersColumn";
-            this.answersColumn.Width = 114;
+            this.AnswersColumn.HeaderText = "Answers";
+            this.AnswersColumn.MinimumWidth = 8;
+            this.AnswersColumn.Name = "AnswersColumn";
+            this.AnswersColumn.Width = 114;
             // 
             // AllQuestionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.allQuestionsDataGridView);
             this.Controls.Add(this.deleteQuestionCloseButton);
@@ -115,8 +116,8 @@
 
         private Button deleteQuestionCloseButton;
         private DataGridView allQuestionsDataGridView;
-        private DataGridViewTextBoxColumn questionNumberColumn;
-        private DataGridViewTextBoxColumn questionsColumn;
-        private DataGridViewTextBoxColumn answersColumn;
+        private DataGridViewTextBoxColumn NumberColumn;
+        private DataGridViewTextBoxColumn questions;
+        private DataGridViewTextBoxColumn AnswersColumn;
     }
 }

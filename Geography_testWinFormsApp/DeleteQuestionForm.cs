@@ -13,7 +13,7 @@ namespace Geography_testWinFormsApp
 {
     public partial class DeleteQuestionForm : Form
     {
-        //List<Question> questions;
+        List<Question> question;
         public DeleteQuestionForm()
         {
             InitializeComponent();
@@ -21,21 +21,26 @@ namespace Geography_testWinFormsApp
 
         private void deleteQuestionButton_Click(object sender, EventArgs e)
         {
-            //var indexCurrentRow = questionsToDeleteDataGridView.CurrentCell.RowIndex;
-            //questionsToDeleteDataGridView.Rows.Remove(questionsToDeleteDataGridView.CurrentRow);
+            var indexCurrentRow = questionsToDeleteDataGridView.CurrentCell.RowIndex;
+            questionsToDeleteDataGridView.Rows.Remove(questionsToDeleteDataGridView.CurrentRow);
 
-            //QuestionsStorage.Remove(questions[indexCurrentRow]);
-            //MessageBox.Show("Your question has been deleted");
+            QuestionsStorage.Remove(question[indexCurrentRow]);
+            MessageBox.Show("Your question has been deleted");
         }
 
         private void DeleteQuestionForm_Load(object sender, EventArgs e)
         {
-            //questions = QuestionsStorage.GetAll();
+            question = QuestionsStorage.GetAll();
 
-            //foreach (var question in questions)
-            //{
-            //    questionsToDeleteDataGridView.Rows.Add(question.Text);
-            //}
+            foreach (var quest in question)
+            {
+                questionsToDeleteDataGridView.Rows.Add(quest.Text);
+            }
+        }
+
+        private void deleteQuestionCloseButton_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

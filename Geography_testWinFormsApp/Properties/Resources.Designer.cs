@@ -83,6 +83,36 @@ namespace Geography_testWinFormsApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap globe_geography_global_international_education_icon_141976 {
+            get {
+                object obj = ResourceManager.GetObject("globe_geography_global_international_education_icon_141976", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap globe_geography_global_international_education_icon_1419761 {
+            get {
+                object obj = ResourceManager.GetObject("globe_geography_global_international_education_icon_1419761", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap globe_geography_world_earth_icon_220473 {
+            get {
+                object obj = ResourceManager.GetObject("globe_geography_world_earth_icon_220473", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap start_48_44541 {
             get {
                 object obj = ResourceManager.GetObject("start-48_44541", resourceCulture);

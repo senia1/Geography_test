@@ -41,7 +41,7 @@
             // 
             this.addNewQuestionLabel.AutoSize = true;
             this.addNewQuestionLabel.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.addNewQuestionLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.addNewQuestionLabel.ForeColor = System.Drawing.Color.DimGray;
             this.addNewQuestionLabel.Location = new System.Drawing.Point(70, 45);
             this.addNewQuestionLabel.Name = "addNewQuestionLabel";
             this.addNewQuestionLabel.Size = new System.Drawing.Size(269, 35);
@@ -52,7 +52,7 @@
             // 
             this.addNewAnswerLabel.AutoSize = true;
             this.addNewAnswerLabel.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.addNewAnswerLabel.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.addNewAnswerLabel.ForeColor = System.Drawing.Color.DimGray;
             this.addNewAnswerLabel.Location = new System.Drawing.Point(70, 230);
             this.addNewAnswerLabel.Name = "addNewAnswerLabel";
             this.addNewAnswerLabel.Size = new System.Drawing.Size(212, 35);
@@ -81,12 +81,12 @@
             // closeButton
             // 
             this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.closeButton.BackColor = System.Drawing.Color.Ivory;
+            this.closeButton.BackColor = System.Drawing.Color.LightPink;
             this.closeButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.closeButton.ForeColor = System.Drawing.Color.DimGray;
             this.closeButton.Location = new System.Drawing.Point(538, 385);
             this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(164, 44);
+            this.closeButton.Size = new System.Drawing.Size(186, 50);
             this.closeButton.TabIndex = 4;
             this.closeButton.Text = "Cancel";
             this.closeButton.UseVisualStyleBackColor = false;
@@ -95,12 +95,12 @@
             // addNewQuestionButton
             // 
             this.addNewQuestionButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.addNewQuestionButton.BackColor = System.Drawing.Color.Ivory;
+            this.addNewQuestionButton.BackColor = System.Drawing.Color.LightPink;
             this.addNewQuestionButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.addNewQuestionButton.ForeColor = System.Drawing.Color.DimGray;
             this.addNewQuestionButton.Location = new System.Drawing.Point(70, 385);
             this.addNewQuestionButton.Name = "addNewQuestionButton";
-            this.addNewQuestionButton.Size = new System.Drawing.Size(164, 44);
+            this.addNewQuestionButton.Size = new System.Drawing.Size(186, 50);
             this.addNewQuestionButton.TabIndex = 5;
             this.addNewQuestionButton.Text = "Add";
             this.addNewQuestionButton.UseVisualStyleBackColor = false;
@@ -110,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(800, 466);
             this.Controls.Add(this.addNewQuestionButton);
             this.Controls.Add(this.closeButton);

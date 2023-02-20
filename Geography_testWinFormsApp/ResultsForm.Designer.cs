@@ -43,9 +43,9 @@
             this.resultsCloseButton.BackColor = System.Drawing.Color.LavenderBlush;
             this.resultsCloseButton.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.resultsCloseButton.ForeColor = System.Drawing.Color.DimGray;
-            this.resultsCloseButton.Location = new System.Drawing.Point(614, 385);
+            this.resultsCloseButton.Location = new System.Drawing.Point(580, 375);
             this.resultsCloseButton.Name = "resultsCloseButton";
-            this.resultsCloseButton.Size = new System.Drawing.Size(133, 42);
+            this.resultsCloseButton.Size = new System.Drawing.Size(167, 52);
             this.resultsCloseButton.TabIndex = 0;
             this.resultsCloseButton.Text = "Close";
             this.resultsCloseButton.UseVisualStyleBackColor = false;
@@ -59,7 +59,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.resultsDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.resultsDataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.resultsDataGridView.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
+            this.resultsDataGridView.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.resultsDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.resultsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.resultsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -98,7 +98,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.resultsDataGridView);
             this.Controls.Add(this.resultsCloseButton);

@@ -6,7 +6,12 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>globe_geography_world_earth_icon_220473.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="globe_geography_world_earth_icon_220473.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Geography_testClassLibrary\Geography_testClassLibrary.csproj" />

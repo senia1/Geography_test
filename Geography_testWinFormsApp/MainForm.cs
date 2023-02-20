@@ -113,20 +113,11 @@ namespace Geography_testWinFormsApp
             questionsForm.ShowDialog();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Restart();
-        }
+        
 
-        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
+        
 
-        private void restartToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Application.Restart();
-        }
+        
 
         private void nextButton_Click(object sender, EventArgs e)
         {
@@ -170,6 +161,22 @@ namespace Geography_testWinFormsApp
                 ShowNextQuestion();
             }
             userAnswerTextBox.Focus();
+        }
+
+        private void restartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var resultsForm = new ResultsForm();
+            resultsForm.Show();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

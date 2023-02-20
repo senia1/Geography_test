@@ -48,6 +48,7 @@
             this.deleteQuestionCloseButton.TabIndex = 0;
             this.deleteQuestionCloseButton.Text = "Close";
             this.deleteQuestionCloseButton.UseVisualStyleBackColor = false;
+            this.deleteQuestionCloseButton.Click += new System.EventHandler(this.deleteQuestionCloseButton_Click);
             // 
             // deleteQuestionButton
             // 
@@ -71,7 +72,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.questionsToDeleteDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.questionsToDeleteDataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.questionsToDeleteDataGridView.BackgroundColor = System.Drawing.Color.DarkSeaGreen;
+            this.questionsToDeleteDataGridView.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.questionsToDeleteDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.questionsToDeleteDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.questionsToDeleteDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -95,7 +96,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.questionsToDeleteDataGridView);
             this.Controls.Add(this.deleteQuestionButton);

@@ -49,45 +49,57 @@
             this.deleteAQuestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // nextButton
             // 
+            this.nextButton.BackColor = System.Drawing.Color.Pink;
+            this.nextButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nextButton.ForeColor = System.Drawing.Color.DimGray;
             this.nextButton.Location = new System.Drawing.Point(339, 345);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(112, 34);
+            this.nextButton.Size = new System.Drawing.Size(171, 48);
             this.nextButton.TabIndex = 0;
             this.nextButton.Text = "Next";
-            this.nextButton.UseVisualStyleBackColor = true;
+            this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // questionNumberLabel
             // 
             this.questionNumberLabel.AutoSize = true;
+            this.questionNumberLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.questionNumberLabel.ForeColor = System.Drawing.Color.DimGray;
             this.questionNumberLabel.Location = new System.Drawing.Point(133, 107);
             this.questionNumberLabel.Name = "questionNumberLabel";
-            this.questionNumberLabel.Size = new System.Drawing.Size(100, 25);
+            this.questionNumberLabel.Size = new System.Drawing.Size(121, 29);
             this.questionNumberLabel.TabIndex = 1;
             this.questionNumberLabel.Text = "Question #";
             // 
             // questionTextLabel
             // 
             this.questionTextLabel.AutoSize = true;
-            this.questionTextLabel.Location = new System.Drawing.Point(133, 163);
+            this.questionTextLabel.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.questionTextLabel.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.questionTextLabel.Location = new System.Drawing.Point(38, 163);
             this.questionTextLabel.Name = "questionTextLabel";
-            this.questionTextLabel.Size = new System.Drawing.Size(118, 25);
+            this.questionTextLabel.Size = new System.Drawing.Size(173, 35);
             this.questionTextLabel.TabIndex = 2;
             this.questionTextLabel.Text = "Question text";
             // 
             // resultsButton
             // 
-            this.resultsButton.Location = new System.Drawing.Point(139, 345);
+            this.resultsButton.BackColor = System.Drawing.Color.Silver;
+            this.resultsButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.resultsButton.ForeColor = System.Drawing.Color.DimGray;
+            this.resultsButton.Location = new System.Drawing.Point(80, 345);
             this.resultsButton.Name = "resultsButton";
-            this.resultsButton.Size = new System.Drawing.Size(112, 34);
+            this.resultsButton.Size = new System.Drawing.Size(171, 48);
             this.resultsButton.TabIndex = 3;
             this.resultsButton.Text = "Results";
-            this.resultsButton.UseVisualStyleBackColor = true;
+            this.resultsButton.UseVisualStyleBackColor = false;
             this.resultsButton.Visible = false;
             this.resultsButton.Click += new System.EventHandler(this.resultsButton_Click);
             // 
@@ -101,9 +113,11 @@
             // timerLabel
             // 
             this.timerLabel.AutoSize = true;
+            this.timerLabel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.timerLabel.ForeColor = System.Drawing.Color.RosyBrown;
             this.timerLabel.Location = new System.Drawing.Point(311, 262);
             this.timerLabel.Name = "timerLabel";
-            this.timerLabel.Size = new System.Drawing.Size(22, 25);
+            this.timerLabel.Size = new System.Drawing.Size(25, 29);
             this.timerLabel.TabIndex = 5;
             this.timerLabel.Text = "0";
             // 
@@ -133,13 +147,15 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.MistyRose;
+            this.menuStrip1.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.resultsToolStripMenuItem,
             this.questionsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(878, 32);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -150,27 +166,27 @@
             this.exitToolStripMenuItem,
             this.exitToolStripMenuItem1});
             this.resultsToolStripMenuItem.Name = "resultsToolStripMenuItem";
-            this.resultsToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.resultsToolStripMenuItem.Size = new System.Drawing.Size(55, 28);
             this.resultsToolStripMenuItem.Text = "File";
             // 
             // restartToolStripMenuItem
             // 
             this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
-            this.restartToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(170, 34);
             this.restartToolStripMenuItem.Text = "Results";
             this.restartToolStripMenuItem.Click += new System.EventHandler(this.restartToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(169, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(170, 34);
             this.exitToolStripMenuItem.Text = "Restart";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(169, 34);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(170, 34);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -181,27 +197,27 @@
             this.addAQuestionToolStripMenuItem,
             this.deleteAQuestionToolStripMenuItem});
             this.questionsToolStripMenuItem.Name = "questionsToolStripMenuItem";
-            this.questionsToolStripMenuItem.Size = new System.Drawing.Size(108, 29);
+            this.questionsToolStripMenuItem.Size = new System.Drawing.Size(109, 28);
             this.questionsToolStripMenuItem.Text = "Questions";
             // 
             // questionsListToolStripMenuItem
             // 
             this.questionsListToolStripMenuItem.Name = "questionsListToolStripMenuItem";
-            this.questionsListToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
+            this.questionsListToolStripMenuItem.Size = new System.Drawing.Size(257, 34);
             this.questionsListToolStripMenuItem.Text = "List of questions";
             this.questionsListToolStripMenuItem.Click += new System.EventHandler(this.questionsListToolStripMenuItem_Click);
             // 
             // addAQuestionToolStripMenuItem
             // 
             this.addAQuestionToolStripMenuItem.Name = "addAQuestionToolStripMenuItem";
-            this.addAQuestionToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
+            this.addAQuestionToolStripMenuItem.Size = new System.Drawing.Size(257, 34);
             this.addAQuestionToolStripMenuItem.Text = "Add a question";
             this.addAQuestionToolStripMenuItem.Click += new System.EventHandler(this.addAQuestionToolStripMenuItem_Click);
             // 
             // deleteAQuestionToolStripMenuItem
             // 
             this.deleteAQuestionToolStripMenuItem.Name = "deleteAQuestionToolStripMenuItem";
-            this.deleteAQuestionToolStripMenuItem.Size = new System.Drawing.Size(252, 34);
+            this.deleteAQuestionToolStripMenuItem.Size = new System.Drawing.Size(257, 34);
             this.deleteAQuestionToolStripMenuItem.Text = "Delete a question";
             this.deleteAQuestionToolStripMenuItem.Click += new System.EventHandler(this.deleteAQuestionToolStripMenuItem_Click);
             // 
@@ -209,12 +225,24 @@
             // 
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Geography_testWinFormsApp.Properties.Resources.globe_geography_world_earth_icon_220473;
+            this.pictureBox1.Location = new System.Drawing.Point(692, 246);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(124, 147);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // MainForm
             // 
             this.AcceptButton = this.nextButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(878, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.startTestButton);
             this.Controls.Add(this.updateButton);
             this.Controls.Add(this.timerLabel);
@@ -232,6 +260,7 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,5 +287,6 @@
         private ToolStripMenuItem addAQuestionToolStripMenuItem;
         private ToolStripMenuItem deleteAQuestionToolStripMenuItem;
         private ToolTip toolTip1;
+        private PictureBox pictureBox1;
     }
 }
