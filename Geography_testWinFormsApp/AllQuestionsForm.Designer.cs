@@ -39,6 +39,7 @@
             // 
             // deleteQuestionCloseButton
             // 
+            this.deleteQuestionCloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.deleteQuestionCloseButton.BackColor = System.Drawing.Color.Pink;
             this.deleteQuestionCloseButton.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.deleteQuestionCloseButton.ForeColor = System.Drawing.Color.DimGray;
